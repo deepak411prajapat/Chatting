@@ -12,7 +12,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://friendchatting.netlify.app/",
+    origin: "https://friendchatting.netlify.app",
     methods: ["GET", "POST"],
   },
 });
